@@ -1,0 +1,97 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: #f2f5f5;
+}
+
+.container {
+    padding: 10px;
+}
+
+
+
+
+.card {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    min-height: 150px;
+    max-height: 180px;
+}
+
+.box {
+    padding: 8px;
+}
+
+.box1 {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    min-width: 200px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    justify-content: space-between;
+}
+
+.caption {
+    color: #006ce4;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #2F4F4F;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.box21 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.box22 {
+    display: flex;
+    justify-content: right;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-top: 1px solid lightgrey;
+}
+
+.roomname {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: red;
+}
+
+.roomdesc {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    color: blue;
+}

@@ -1,0 +1,41 @@
+.imageslider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.slideStyles {
+  width: 100%;
+  height: 100%;
+  /* border-Radius: 10px; */
+  background-Size: cover;
+  background-Position: center;
+}
+
+.rightarrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-Size: 45px;
+  color: #fff;
+  z-Index: 1;
+  cursor: pointer;
+}
+
+.leftarrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-Size: 45px;
+  color: #fff;
+  z-Index: 1;
+  cursor: pointer;
+}
+
+.sliderstyles {
+  position: relative;
+  height: 100px;
+  width: 100;
+}
