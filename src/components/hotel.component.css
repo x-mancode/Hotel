@@ -62,47 +62,52 @@ body {
     justify-content: space-between;
 }
 
-.caption {
-    color: #006ce4;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
+    .caption {
+        color: #006ce4;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
 
-.text {
-    color: #2F4F4F;
-    font-size: 12px;
-    margin-bottom: 10px;
-}
+    .text {
+        color: #2F4F4F;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
 
-.box21 {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-}
+    .box21 {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
 
-.box22 {
-    display: flex;
-    justify-content: right;
-}
+    .box22 {
+        display: flex;
+    }
 
-.rooms {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    border-top: 1px solid lightgrey;
-}
+    .rooms {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        border-top: 1px solid lightgrey;
+    }
 
-.roomname {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    color: red;
-}
+    .roomname {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        color: red;
+    }
 
-.roomdesc {
-    display: flex;
-    flex-direction: column;
-    flex: 3;
-    color: blue;
-}
+    .roomdesc {
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        color: blue;
+    }
+
+    @media (max-width: 600px) {
+        .box2 {
+            flex-direction: column;
+        }
+    }
