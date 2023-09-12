@@ -1,0 +1,11 @@
+.counter {
+    display: flex;
+    align-items: center;
+}
+ button {
+    color: #e81657;
+    background-color: #fff;
+    border: none;
+    font-size: larger;
+    padding: 6px 10px;
+  }

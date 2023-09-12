@@ -6,12 +6,23 @@ body {
     background-color: #f2f5f5;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid grey;
+    margin: 10px 0 10px 0;
+}
+
 .container {
     padding: 10px;
 }
 
-
-
+.main {
+    overflow: auto;
+    height: calc(100vh - 100px);
+}
 
 .card {
     width: 80%;
