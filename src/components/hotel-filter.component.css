@@ -2,24 +2,20 @@
     display: flex;
     flex-direction: row;
     border: 1px solid grey;
-    width: 40%;
     justify-content: space-around;
     align-items: center;
     position: absolute;
     top: 65px;
     background-color: #fff;
-    z-index: 1  
+    z-index: 1;  
+    width: 400px;
 }
 .rating{
     display: flex;
     justify-content: center;
     flex: 1;
-   
 }
 
-.noHover{
-    pointer-events: none;
-}
 .adult{
     display: flex;
     flex: 1;
