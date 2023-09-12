@@ -107,6 +107,9 @@ body {
 }
 
 @media (max-width: 600px) {
+    .card {
+        width: 95%;
+    }
     .box2 {
         flex-direction: column;
     }
