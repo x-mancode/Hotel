@@ -6,13 +6,33 @@ body {
     background-color: #f2f5f5;
 }
 
+.caption {
+    color: #5781b0;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subcation {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #ff0000b3;
+    font-size: 14px;
+}
+
+.text {
+    color: #2F4F4F;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
     border-bottom: 1px solid grey;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 20px 0;
 }
 
 .container {
@@ -21,7 +41,7 @@ body {
 
 .main {
     overflow: auto;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 105px);
 }
 
 .card {
@@ -62,52 +82,34 @@ body {
     justify-content: space-between;
 }
 
-    .caption {
-        color: #006ce4;
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
 
-    .text {
-        color: #2F4F4F;
-        font-size: 12px;
-        margin-bottom: 10px;
-    }
+.box21 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
 
-    .box21 {
-        display: flex;
-        justify-content: left;
+.box22 {
+    display: flex;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-top: 1px solid lightgrey;
+}
+
+.roomdesc {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    color: blue;
+}
+
+@media (max-width: 600px) {
+    .box2 {
         flex-direction: column;
     }
-
-    .box22 {
-        display: flex;
-    }
-
-    .rooms {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: white;
-        border-top: 1px solid lightgrey;
-    }
-
-    .roomname {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        color: red;
-    }
-
-    .roomdesc {
-        display: flex;
-        flex-direction: column;
-        flex: 3;
-        color: blue;
-    }
-
-    @media (max-width: 600px) {
-        .box2 {
-            flex-direction: column;
-        }
-    }
+}

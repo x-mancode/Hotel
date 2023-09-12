@@ -68,7 +68,7 @@ const Hotellist = (prop: IProps) => {
                                         <div className="rooms">
                                             <div className="box1 box">
                                                 <div className="box21">
-                                                    <div className="caption">{room.name}</div>
+                                                    <div className="subcation">{room.name}</div>
                                                     <div className="text">Adults:{room.occupancy.maxAdults}</div>
                                                     <div className="text">Children:{room.occupancy.maxChildren}</div>
                                                 </div>
